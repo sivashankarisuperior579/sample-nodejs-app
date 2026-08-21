@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/SamDonald-A/sample-nodejs-app.git'
+                    url: 'https://github.com/sivashankarisuperior579/sample-nodejs-app.git'
             }
         }
 
